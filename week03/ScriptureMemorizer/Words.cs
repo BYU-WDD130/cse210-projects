@@ -1,5 +1,3 @@
-using System;
-
 public class Word
 {
     private string _text;
@@ -11,10 +9,12 @@ public class Word
         _isHidden = false;
     }
 
-    public string GetDisplayText()
-    {
-        if (_isHidden)
-        (
-            for (int i = 0;)
-        )
-    }
+    public void Hide() => _isHidden = true;
+    public void Show() => _isHidden = false;
+    public bool IsHidden() => _isHidden;
+
+    public string GetDisplayText() => _isHidden ? new string('_', _text.Length) : _text;
+
+    public string Text => _text;
+    public bool IsHiddenWord => _isHidden;
+}
