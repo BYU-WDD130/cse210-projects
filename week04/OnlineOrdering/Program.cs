@@ -10,7 +10,7 @@ class Program
         order1.AddProduct(new Product("Wireless Mouse", "WM100", 25.99, 2));
         order1.AddProduct(new Product("Keyboard", "KB200", 45.50, 1));
 
-    // ---------- ORDER 2 ----------
+      // ---------- ORDER 2 ----------
         Address address2 = new Address("5489 Las americas st", "San Pedro Sula", "Cortés", "Honduras");
         Customer customer2 = new Customer("Ana Lopez", address2);
 
