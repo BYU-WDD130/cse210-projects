@@ -37,3 +37,14 @@ class Program
         }
     }
 }
+
+
+/*
+Mindfulness Program - Exceeding Requirements:
+
+1. Added a session log: each activity saves date, type, and duration to "log.txt".
+2. Improved animations: BreathingActivity now has growing dots that slow down to simulate real breath.
+3. No repeats: ReflectionActivity and ListingActivity now use all prompts/questions before repeating any.
+4. Input validation: ensures duration and menu choices are correct.
+5. Overall clean code and structure for maintainability and readability.
+*/
